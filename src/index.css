@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  font-family: "Karla", sans-serif;
+}
+
+
+.page1-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1-content{
+  color: #293264;
+  text-align: center;
+}
+.page1-content h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+.page1-content p{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.page1-content button{
+  font-family: "Karla", sans-serif;
+  padding: 1em 4em;
+  border-radius: 20px;
+  border: none;
+  background-color:#4D5B9E ;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border: 1px solid black;
+}
+
+.page2-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 100em;
+
+}
+.quiz-container{
+  border-bottom:1px solid black;
+  width: 80%;
+  padding-bottom: 2em;
+}
+.quiz-container:last-of-type{
+  border-bottom: none;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+
+}
+.buttons-container button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+#check-btn{
+  padding: 1em 4em;
+  border-radius: 14px;
+  font-size: 1.2em;
+  margin-top: 2.5em;
+}
