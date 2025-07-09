@@ -43,14 +43,16 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2em;
-  margin-bottom: 100em;
+  /* gap: 2em; */
 
 }
 .quiz-container{
   border-bottom:1px solid black;
   width: 80%;
   padding-bottom: 2em;
+}
+.quiz-container h1{
+  font-size: 1.5rem;
 }
 .quiz-container:last-of-type{
   border-bottom: none;
