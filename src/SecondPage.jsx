@@ -60,7 +60,7 @@ export default function SecondPage() {
         }
     }
     
-    // Render question and answer blocks
+    // Render question and answer 
     let renderQuestions = [];
     let correctCount = 0
     if (dataFectched.length === 0) {
@@ -96,7 +96,7 @@ export default function SecondPage() {
                 );
             });
 
-            // Render question block
+            // Render question 
             return (
                 <div className="quiz-container" key={index}>
                     <h1>{result.question}</h1>
