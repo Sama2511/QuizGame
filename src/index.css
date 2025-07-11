@@ -44,13 +44,13 @@ button{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 2em; */
 
 }
 .quiz-container{
   border-bottom:1px solid black;
   width: 80%;
   padding-bottom: 2em;
+  max-width:1000px;
 }
 .quiz-container h1{
   font-size: 1.5rem;
@@ -70,7 +70,7 @@ button{
   font-size: 1.2em;
 }
 .buttons-container button:hover{
-  scale: 1.1;
+  scale: 1.07;
 }
 :disabled{
   cursor:not-allowed;
@@ -80,6 +80,9 @@ button{
   border-radius: 14px;
   font-size: 1.2em;
   margin-top: 2.5em;
+  background-color: #4D5B9E ;
+  color: white;
+  font-size: 1.3rem;
 }
 
 .choosen{
@@ -110,4 +113,34 @@ button{
   color: white;
   font-weight: 600;
   font-family: "Inter", sans-serif;
+}
+@media (max-width:650px) {
+  .page2-container{
+    align-items: normal;
+    justify-content: center;
+  }
+  .buttons-container {
+    gap: 5px;
+  }
+  .buttons-container button{
+    padding: 5px 20px;
+  }
+  .quiz-container{
+    margin: auto;
+    padding-right: 40px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  .quiz-container h1{
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  .quiz-container button{
+    font-size: 1.2rem;
+  }
+  #check-btn{
+
+    margin: auto;
+    margin-top: 1em;
+  }
 }
